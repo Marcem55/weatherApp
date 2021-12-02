@@ -6,3 +6,8 @@
   display: flex;
   justify-content: center;
 }
+
+.noCities {
+  margin-top: 2rem;
+  color: #ffffff;
+}

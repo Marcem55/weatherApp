@@ -53,7 +53,7 @@ export default function App() {
       <Route path='/' render={() => <Nav onSearch = {onSearch}/>}/>
       <Route exact path= '/about' component={About}/>
       <Route exact path='/ciudad/:ciudadId' render={({match}) => <Ciudad city={onFilter(match.params.ciudadId)}/>}/>
-      <Route exact path='/' render={() => <Cards cities = {cities} onClose = {onClose}/>}/>
+      <Route exact path='/' render={() => cities.length > 0 ? <Cards cities = {cities} onClose = {onClose}/> : <h3 className='noCities'>Busca tu ciudad!</h3>}/>
     </div>
   );
 }
