@@ -1,6 +1,9 @@
 {
   "name": "09-react-routing",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=6.9.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
