@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+  border: 1px solid #C1C8DD;
+  border-radius: 3px;
+  background-color: #1B263199;
+  color: white;
+  padding: 1rem;
+}
+
+.card-title {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+}
+
+.card-title p {
+  margin-bottom: 0;
+}
+
+.closeIcon {
+  border: .5px solid #C1C8DD;
+  border-radius: 3px;
+  align-self: flex-end;
+  background-color: #E33115;
+  color: #FFFFFF;
+  transition: background-color .5s;
+}
+
+.closeIcon:hover{
+  background-color: #BF1100;
+  transition: background-color .5s;
+}
+
+.more-info, .more-info:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.detalles {
+  color: #D3CBCB;
+}

@@ -1,0 +1,35 @@
+.ciudad {
+    padding: 2rem;
+}
+
+.container {
+    max-width: 300px;
+    padding: 1rem;
+    border: 1px solid #C1C8DD;
+    border-radius: 3px;
+    background-color: #1B263199;
+    color: white; 
+}
+
+.name {
+    color: #D3CBCB;
+}
+
+.info div {
+    padding: .2rem;
+}
+
+.back-btn {
+    margin-top: 1rem;
+    padding: .1rem .5rem;
+    border: .5px solid #C1C8DD;
+    border-radius: 3px;
+    background-color: #E33115;
+    color: #FFFFFF;
+    transition: background-color .5s;
+}
+  
+.back-btn:hover{
+    background-color: #BF1100;
+    transition: background-color .5s;
+}

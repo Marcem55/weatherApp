@@ -1,0 +1,21 @@
+.navContain{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #1B2631;
+}
+.titulo, .titulo:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+@media (max-width: 610px) {
+  .navContain{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.about, .about:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
